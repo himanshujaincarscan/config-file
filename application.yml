@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://mysql-rrg-standalone:3306/rajratnaglobaldatabase
+    url: jdbc:mysql://mysql-rrg-standalone:3307/rajratnaglobaldatabase
     username: root
     password: root
   jpa:
