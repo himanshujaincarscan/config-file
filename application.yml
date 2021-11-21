@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://mysql-rrg-standalone:3307/rajratnaglobaldatabase?autoReconnect=true&useSSL=false
-    username: root
-    password: root
+    url: jdbc:mysql://mysql-rrg-standalone:3306/rajratnaglobaldatabase?autoReconnect=true&useSSL=false
+    username: rrg
+    password: rrg123
   jpa:
     show-sql: true
     hibernate:
@@ -13,6 +13,6 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://service-registry:8761/eureka
   instance:
-    hostname: localhost
+    hostname: service-registry
